@@ -1,0 +1,44 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: black;
+    height: 80px;
+}
+
+.header-con {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.logo-container a {
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.menu li {
+    padding-right: 2rem;
+}
+.icon-size {
+    padding-left: 5px;
+    font-size: 1.55rem;
+}
+.menu li a {
+    display: flex;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
